@@ -10,12 +10,12 @@
   <h1 class="title">Horário Federal</h1>
   <div class="form">
     <label for="input_horario">Informe seu horário:</label>
-    <input type="text" class="horario" id="horario">
+    <input type="text" class="input_horario" id="horario">
 
-    <button class="button_exibir_h">Avançar</button>
+    <button class="button_exibir_h" onclick="calcular_horario()">Avançar</button>
 
     <h3 class="result_label">Seu horário:</h3>
-    <span class="result">a</span>
+    <span class="resultado" id="resultado"></span>
 
   </div>
   <script src="./assets/script.js"></script>
