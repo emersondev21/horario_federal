@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/img/calendario.png" type="image/x-icon">
   <link rel="stylesheet" href="./assets/style.css">
   <title>Horário Federal</title>
 </head>
@@ -10,9 +11,11 @@
   <h1 class="title">Horário Federal</h1>
   <div class="form">
     <label for="input_horario">Informe seu horário:</label>
-    <input type="text" class="input_horario" id="horario">
+    <input type="text" class="input_horario" id="horario" placeholder="ex.: 2M45 3M23">
 
-    <button class="button_exibir_h" onclick="calcular_horario()">Avançar</button>
+    <div class="button_box">
+      <button class="button_exibir_h" onclick="calcular_horario()">Avançar</button>
+    </div>
 
     <h3 class="result_label">Seu horário:</h3>
     <span class="resultado" id="resultado"></span>
